@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>🍱 Spice Rack 🍱</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>🍱 🍱 🍱 SPICE RACK 🍱 🍱 🍱</h1>
+      </header>
+      <div id="counter" class="counter">
+        <div class="spice">Salt</div>
+        <div class="spice">Sugar</div>
+        <div class="spice">Kosher Salt</div>
+        <div class="spice">Pepper</div>
+        <div class="spice">Cumin </div>
+        <div class="spice">Basil</div>
+        <div class="spice">Cinnamon Powder</div>
+        <div class="spice">Cinnamon Sticks</div>
+        <div class="spice">Bay Leaves</div>
+        <div class="spice">Paprika</div>
+        <div class="spice">Thyme</div>
+        <div class="spice">Garlic Powder</div>
+        <div class="spice">Oregano</div>
+        <div class="spice">Onion Powder</div>
+        <div class="spice">Rosemary</div>
+        <div class="spice">Nutmeg</div>
+        <div class="spice">Red Pepper Flakes</div>
+        <div class="spice">Coriander</div>
+        <div class="spice">Cayenne Pepper</div>
+        <div class="spice">Cloves</div>
+        <div class="spice">Chinese Five Spice</div>
+        <div class="spice">Turmeric</div>
+        <div class="spice">Curry Powder</div>
+        <div class="spice">Poultry Seasoning</div>
+        <div class="spice">Seasoning Salt</div>
+        <div class="spice">Meat Tenderizer</div>
+        <div class="spice">Vanilla</div>
+        <div class="spice">Ginger Powder</div>
+        <div class="spice">Old Bay</div>
+        <div class="spice">Allspice</div>
+        <div class="spice">Saffron</div>
+        <div class="spice">Mint</div>
+        <div class="spice">Fenugreek</div>
+        <div class="spice">Fennel</div>
+        <div class="spice">Baby Spice</div>
+        <div class="spice">Sporty Spice</div>
+        <div class="spice">Posh Spice</div>
+        <div class="spice">Scary Spice</div>
+        <div class="spice">Geri Halliwell</div>
+      </div>
+      <div class="shelves">
+        <div id="top" class="shelf">
+        </div>
+        <hr/>
+        <div id="middle" class="shelf">
+        </div>
+        <hr/>
+        <div id="bottom" class="shelf">
+        </div>
+      </div>
+    </div>
+  </div>
+	<div class="footer">
+    [<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>] | <a href="https://github.com/ablwr/spicerack">source code</a> |
+		<button class="reset">Reset</button>
+		<button class="save">Save File</button>
+	</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/FileSaver.js"></script>
+    <script>dragula([document.querySelector("#counter"),
+      document.querySelector("#top"),
+      document.querySelector("#middle"),
+      document.querySelector("#bottom")]);
+    </script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

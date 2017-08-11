@@ -1,0 +1,49 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto minmax(min-content, 1fr);
+  grid-template-rows: auto minmax(min-content, 1fr) auto;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  font-size: 2.2rem;
+  text-align: center;
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.counter {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: antiquewhite;
+  padding: 5px 10px;
+}
+
+.shelves {
+  grid-column: 2;
+  grid-row: 2;
+  align-self: start;
+  margin-left: 18px;
+}
+
+.shelf {
+  background: sienna;
+  cursor: pointer;
+  min-height: 4rem;
+}
+
+.footer {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+  background-color: #F0F0F2;
+  margin-top: 20px;
+  padding: 5px 10px;
+  color: black;
+  margin-bottom: 20px;
+}
