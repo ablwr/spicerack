@@ -35,7 +35,18 @@ header {
 .shelf {
   background: sienna;
   cursor: pointer;
-  min-height: 4rem;
+  min-height: 4.2rem;
+}
+
+.spice {
+  justify-self: start;
+  border: 1px solid black;
+  width: 4rem;
+  height: 4rem;
+}
+
+.shelf div {
+  float: left;
 }
 
 .footer {
