@@ -23,30 +23,37 @@ header {
   grid-row: 2;
   background-color: antiquewhite;
   padding: 5px 10px;
+  max-width: 12rem;
 }
 
 .shelves {
   grid-column: 2;
   grid-row: 2;
-  align-self: start;
   margin-left: 18px;
 }
 
 .shelf {
   background: sienna;
   cursor: pointer;
-  min-height: 4.2rem;
+  min-height: 8rem;
+  display: grid;
+  align-items: end;
 }
 
 .spice {
-  justify-self: start;
+  background: linear-gradient(0deg, white 75%, red 75%);
+  grid-row: 1;
+  text-align: center;
   border: 1px solid black;
-  width: 4rem;
-  height: 4rem;
+  border-top: thick double black;
+  width: 5rem;
+  height: 7.2rem;
+  display: grid;
+  align-items: center;
 }
 
-.shelf div {
-  float: left;
+.spice:before {
+  background:red;
 }
 
 .footer {
