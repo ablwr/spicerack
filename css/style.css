@@ -23,7 +23,9 @@ header {
   grid-row: 2;
   background-color: antiquewhite;
   padding: 2px 4px;
-  width: 12rem;
+  width: 16rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .shelves {
