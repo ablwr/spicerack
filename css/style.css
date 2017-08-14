@@ -22,27 +22,27 @@ header {
   grid-column: 1;
   grid-row: 2;
   background-color: antiquewhite;
-  padding: 5px 10px;
-  max-width: 12rem;
+  padding: 2px 4px;
+  width: 12rem;
 }
 
 .shelves {
   grid-column: 2;
   grid-row: 2;
-  margin-left: 18px;
+  margin-left: 10px;
 }
 
 .shelf {
   background: sienna;
   cursor: pointer;
-  min-height: 8rem;
+  min-height: 9rem;
   display: grid;
   align-items: end;
 }
 
 .spice {
   background: linear-gradient(0deg, white 75%, red 75%);
-  grid-row: 1;
+  grid-row: 1 / span 2;
   text-align: center;
   border: 1px solid black;
   border-top: thick double black;
@@ -50,6 +50,7 @@ header {
   height: 7.2rem;
   display: grid;
   align-items: center;
+  padding-top: 1rem;
 }
 
 .spice:before {
