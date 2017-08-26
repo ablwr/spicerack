@@ -72,8 +72,8 @@ header {
 
 .footer {
   grid-column: 1 / span 2;
+  font-family: "Open Sans", sans-serif;
   grid-row: 3;
-  background-color: #F0F0F2;
   margin-top: 20px;
   padding: 5px 10px;
   color: black;
