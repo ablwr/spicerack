@@ -34,8 +34,9 @@ header {
   grid-row: 2;
   margin-left: 10px;
   border: 0.2rem solid #402012;
+  border-bottom: 1rem solid #402012;
   background-color: #b37456;
-  height: 42rem;
+  height: 40.5rem;
 }
 
 .shelf {
@@ -43,24 +44,26 @@ header {
   background: #904928;
   cursor: pointer;
   min-height: 9rem;
+  width: 44rem;
   display: grid;
   align-items: end;
 }
 
 .spice {
-  background: linear-gradient(0deg, #f7fefa 75%, #486455 75%);
+  background: linear-gradient(0deg, #f7fefa 80%, #486455 75%);
   grid-row: 1 / span 2;
   text-align: center;
-  border: 1px solid black;
-  border-top: 14px double black;
-  width: 5rem;
-  height: 7.2rem;
+  border: 0.1rem solid #2b3c33;
+  border-top: 0.9rem double #2b3c33;
+  width: 4.8rem;
+  height: 7rem;
   display: grid;
   align-items: center;
   padding-top: 1rem;
   margin: 0.1rem;
   font-size: 1.4rem;
   font-style: italic;
+  color: #2b3c33;
 }
 
 .spice:before {
